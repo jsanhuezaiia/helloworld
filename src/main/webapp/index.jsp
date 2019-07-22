@@ -10,13 +10,12 @@
     </head>
 <body> 
     <div class="page"> 
-        <div class="header"> 
+        <div class="header">
+         <div class="hw-separator"></div> 
             <div class="logodiv"> 
                 <div class="nodename"><%= java.net.InetAddress.getLocalHost().getHostName() %></div> 
             </div> 
-            <div class="hw-separator"></div> 
-            <div class="links-block">  
-                <%= new java.text.SimpleDateFormat("yyyy").format(new java.util.Date()) %>
+            <div class="hw-separator"></div>
         </div> 
     </div> 
 </body> 
