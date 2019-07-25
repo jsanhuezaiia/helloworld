@@ -14,7 +14,7 @@
         <div class="header">
          <div class="hw-separator"></div> 
             <div class="logodiv"> 
-                <div class="nodename">Test CICD AddOns: <%= java.net.InetAddress.getLocalHost().getHostName() %></div> 
+                <div class="nodename">Test CICD: <%= java.net.InetAddress.getLocalHost().getHostName() %></div>
             </div> 
             <div class="hw-separator"></div>
         </div> 
